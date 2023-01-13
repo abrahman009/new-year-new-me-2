@@ -1,0 +1,98 @@
+/* global */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background-color:#000000;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: none;
+}
+.top{
+    margin-top: 200px;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
+.text-end{
+    text-align: end;
+}
+.text-center{
+    text-align: center;
+}
+/* banner section */
+#banner{
+    background-image: url(./images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 200px;
+}
+#banner h1{
+    font-size: 60px;
+}
+#banner p{
+    font-size: 16px;
+    padding: 15px 0;
+}
+.check-color{
+    color: #16D887;
+}
+/* .d-flex img{
+    width: 500px; 
+}*/
+/* failure section */
+#failure h2{
+    font-size: 50px;
+}
+#failure p{
+    font-size: 20px;
+}
+#failure div{
+    padding-left: 90px;
+        
+}
+#failure ul li{
+    list-style: none;
+    font-size: ;
+}
+
+/* plan section */
+#plan h2{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+#footer-top{
+    background-image: url(./images/gradient2.png), url(./images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 72px auto;
+    height: 400px;
+}
+.footer{
+    background-color: #000000;
+    color: aliceblue;
+}
+
